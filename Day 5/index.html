@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day_5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav_links">
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">Tours</a></li>
+            <li><a href="">Explore</a></li>
+            <li><a href="">About</a></li>
+            <li class="ctn"><a href=""></a>Contact</li>
+        </ul>
+        <img src="Images/menu-btn.png" alt="" class="menu_btn">
+    </nav>
+    <header>
+        <div class="header_content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line">
+                
+            </div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="" class="ctn">Learn more </a>
+        </div>
+    </header>
+
+
+    <!-- Events -->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="Images/img1.png" alt="">
+                <h4>Everest Camp Treck</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptates suscipit. Dolorem in voluptatibus autem libero, est amet adipisci architecto quaerat velit nisi placeat beatae illum, delectus earum, blanditiis animi!</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="Images/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptates suscipit. Dolorem in voluptatibus autem libero, est amet adipisci architecto quaerat velit nisi placeat beatae illum, delectus earum, blanditiis animi!</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore_content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, reprehenderit eius iure sequi porro libero beatae odit odio corporis animi? Architecto, impedit. Nisi, dicta non? Nihil itaque ducimus soluta perferendis.</p>
+            <a href="" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+
+    <section class="tours">
+        <div class="row">
+            <div class="col image_col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nulla ullam minus possimus eos error quas ad! Nihil deleniti amet obcaecati iste itaque laudantium repellendus, blanditiis, quos qui expedita voluptatibus!</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <div class="image_gallery">
+                    <img src="Images/img3.png" alt="">
+                    <img src="Images/img4.png" alt="">
+                    <img src="Images/img5.png" alt="">
+                    <img src="Images/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu_btn')
+        const navLinks = document.querySelector('.nav_links')
+
+        menuBtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile_menu')
+        })
+    </script>
+</body>
+</html>
