@@ -1,0 +1,452 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Dark background color */
+    color: #fff; /* White text color */
+  }
+  
+  .introduction {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pexels-pixabay-46258.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(108, 103, 103, 0.7);
+    background-color: #222; Darker background color */
+    /* padding: 20px 0; */
+ }
+  
+  .navbar{
+    width: 100%;
+    height: 80px;
+    margin-top: 0;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(50, 49, 49);
+    position: fixed;
+    z-index: 1000;
+  }
+
+  .navbar h1{
+    margin-left: 50px;
+  }
+  .navbar h1:hover{
+    color: rgb(236, 194, 194);
+    cursor: pointer;
+  }
+  
+  .navbar ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    position: relative;
+}
+  
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+  
+.navbar ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: .5s ease width;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+  .content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    /* transform: translateY(-50%); vertically centre */
+    text-align: center;
+    color: white;
+}
+.content h2{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+/* ABOUT */
+
+.about {
+    width: 100%;
+    height: 80vh;
+    background-color: #444; /* Dark background color */
+    /* color: #fff; White text color */
+    /* padding: 50px 0; */
+    display: flex;
+    margin-right: 40px;
+  }
+  
+  .container1 {
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 34px;
+    /* margin-left: 550px; */
+    left: 50%;
+    /* margin-bottom: 40px; */
+    margin-top: 80px;
+  }
+  .about .line{
+    width: 50px; /* Adjust the width of the line */
+    height: 2px; /* Adjust the height and thickness of the line */
+    background-color: #fff; /* White color */
+    position: absolute;
+    margin-top: 10px;
+    /* bottom: -10px; /* Adjust the position of the line */
+    left: 30%;
+    transform: translateX(-50%);
+  }
+  
+  .about p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 100px 100px;
+    align-items:calc(1);
+    /* margin-top: 90px; */
+    line-height: 40px;
+    text-align: justify;
+    font-style: italic;
+    /* margin-top: 25px; */
+
+  }
+  .about_img img{
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    margin-top: 180px;
+    transition: transform 0.3s linear;
+    opacity: .5;
+
+  }
+  .about_img img:hover{
+    transform: scale(1.1);
+  }
+  .about_img{
+    margin-right: 90px;
+  }
+  
+/* Breeds */
+.featured-berger-breeds {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #535252; /* Darker background color */
+    padding: 50px 0;
+  }
+  .featured-berger-breeds h2{
+    font-size: 34px;
+     /* margin-left: 550px; */
+    /* margin-bottom: 40px; */
+    /* margin-top: 50px; */ 
+    margin: 10px 0px 15px 550px;
+  }
+  .featured-berger-breeds .line{
+    width: 80px; /* Adjust the width of the line */
+    height: 2px; /* Adjust the height and thickness of the line */
+    background-color: #fff; /* White color */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.container2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .breed-card {
+    width: 400px;
+    background-color: #373737; /* Dark background color */
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s linear;
+  }
+  .breed-card:hover{
+    transform: scale(1.1);
+  }
+  
+  .breed-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  
+  .breed-card h3 {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    
+  }
+  
+  .breed-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    /* text-align: justify;
+    font-style: italic; */
+  }
+  /* Existing CSS styles (refer to previous code) */
+
+.hunt-packages {
+    width: 100;
+    background-color: #949191; /* Dark background color */
+    padding: 50px 0;
+    /* height: 90vh; */
+  }
+
+  .hunt-packages .line{
+    width: 80px; /* Adjust the width of the line */
+    height: 2px; /* Adjust the height and thickness of the line */
+    background-color: #fff; /* White color */
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+  }
+  .hunt-packages h2{
+    font-size: 34px;
+    margin: 10px 0px 15px 600px;
+  }
+  
+  .hunt-packages .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .package {
+    width: 350px;
+    background-color: #c0baba; 
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    /* margin-top: 30px; */
+    transition: transform 0.3s linear;
+    color: black;
+    /* background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
+  }
+  .package:hover{
+    transform: scale(1.1);
+  }
+  
+  .package h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .package p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+/* TESTIMONIALS */
+
+.testimonials {
+    background-color: #444; /* Dark background color */
+    padding: 50px 0;
+    width: 100%;
+  }
+  .testimonials .line{
+    width: 80px; /* Adjust the width of the line */
+    height: 2px; /* Adjust the height and thickness of the line */
+    background-color: #fff; /* White color */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .testimonials h2{
+    font-size: 34px;
+    margin: 10px 0px 15px 630px;
+  }
+  
+  .testimonials .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .testimonial {
+    width: 300px;
+    background-color: #222; /* Darker background color */
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s linear;
+  }
+  .testimonial:hover{
+    transform: scale(1.1);
+  }
+  .testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  /* Contact */
+
+.cta {
+    background-color: #222; /* Dark background color */
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .cta .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta h2 {
+    color: #fff; /* White text color */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cta .btn {
+    background-color: #ffcc00; /* Yellow button color */
+    color: #222; /* Dark text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta .btn:hover {
+    background-color: #ffc107; /* Darker yellow color on hover */
+  }
+
+
+.contact {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 50px 0;
+  }
+  
+  .contact .container {
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact textarea {
+    height: 150px;
+  }
+  
+  .contact button {
+    background-color: #ffcc00; /* Yellow button color */
+    color: #222; /* Dark text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact button:hover {
+    background-color: #ffc107; /* Darker yellow color on hover */
+  }
+  /* Existing CSS styles (refer to previous code) */
+
+.footer {
+    background-color:#444; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 20px;
+    text-align: center;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer .footer-content {
+    /* display: flex; */
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* .footer p {
+    margin: 0px 0px 20px;
+    flex: 1;
+  } */
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+  }
+  a img{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    color: white;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
