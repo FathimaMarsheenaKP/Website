@@ -9,20 +9,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #111; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #111; 
+    color: #fff; 
   }
   
   .introduction {
     height: 100vh;
     width: 100%;
     margin: 0;
-    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pexels-pixabay-46258.jpg);
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Images/pexels-pixabay-46258.jpg);
     background-size: cover;
     background-position: center;
-    /* background-color: rgba(108, 103, 103, 0.7);
-    background-color: #222; Darker background color */
-    /* padding: 20px 0; */
+    
  }
   
   .navbar{
@@ -76,7 +74,6 @@ body {
     width: 100%;
     position: absolute;
     top: 30%;
-    /* transform: translateY(-50%); vertically centre */
     text-align: center;
     color: white;
 }
@@ -96,9 +93,7 @@ body {
 .about {
     width: 100%;
     height: 80vh;
-    background-color: #444; /* Dark background color */
-    /* color: #fff; White text color */
-    /* padding: 50px 0; */
+    background-color: #444; 
     display: flex;
     margin-right: 40px;
   }
@@ -109,18 +104,15 @@ body {
   
   .about h2 {
     font-size: 34px;
-    /* margin-left: 550px; */
     left: 50%;
-    /* margin-bottom: 40px; */
     margin-top: 80px;
   }
   .about .line{
-    width: 50px; /* Adjust the width of the line */
-    height: 2px; /* Adjust the height and thickness of the line */
-    background-color: #fff; /* White color */
+    width: 50px; 
+    height: 2px; 
+    background-color: #fff; 
     position: absolute;
     margin-top: 10px;
-    /* bottom: -10px; /* Adjust the position of the line */
     left: 30%;
     transform: translateX(-50%);
   }
@@ -130,18 +122,15 @@ body {
     line-height: 1.5;
     padding: 100px 100px;
     align-items:calc(1);
-    /* margin-top: 90px; */
     line-height: 40px;
     text-align: justify;
     font-style: italic;
-    /* margin-top: 25px; */
 
   }
   .about_img img{
     width: 500px;
     height: 350px;
     border-radius: 5px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
     margin-top: 180px;
     transition: transform 0.3s linear;
     opacity: .5;
@@ -157,21 +146,17 @@ body {
 /* Breeds */
 .featured-berger-breeds {
     width: 100%;
-    /* height: 100vh; */
-    background-color: #535252; /* Darker background color */
+    background-color: #535252;
     padding: 50px 0;
   }
   .featured-berger-breeds h2{
     font-size: 34px;
-     /* margin-left: 550px; */
-    /* margin-bottom: 40px; */
-    /* margin-top: 50px; */ 
     margin: 10px 0px 15px 550px;
   }
   .featured-berger-breeds .line{
-    width: 80px; /* Adjust the width of the line */
-    height: 2px; /* Adjust the height and thickness of the line */
-    background-color: #fff; /* White color */
+    width: 80px; 
+    height: 2px; 
+    background-color: #fff;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -185,7 +170,7 @@ body {
   
   .breed-card {
     width: 400px;
-    background-color: #373737; /* Dark background color */
+    background-color: #373737; 
     margin: 20px;
     padding: 20px;
     text-align: center;
@@ -212,22 +197,19 @@ body {
   .breed-card p {
     font-size: 16px;
     line-height: 1.5;
-    /* text-align: justify;
-    font-style: italic; */
   }
-  /* Existing CSS styles (refer to previous code) */
 
+/* HUNT */
 .hunt-packages {
     width: 100;
-    background-color: #949191; /* Dark background color */
+    background-color: #949191; 
     padding: 50px 0;
-    /* height: 90vh; */
   }
 
   .hunt-packages .line{
-    width: 80px; /* Adjust the width of the line */
-    height: 2px; /* Adjust the height and thickness of the line */
-    background-color: #fff; /* White color */
+    width: 80px; 
+    height: 2px; 
+    background-color: #fff; 
     position: absolute;
     left: 49%;
     transform: translateX(-50%);
@@ -251,10 +233,8 @@ body {
     padding: 30px;
     text-align: center;
     border-radius: 10px;
-    /* margin-top: 30px; */
     transition: transform 0.3s linear;
     color: black;
-    /* background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%); */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
   }
   .package:hover{
@@ -275,14 +255,14 @@ body {
 /* TESTIMONIALS */
 
 .testimonials {
-    background-color: #444; /* Dark background color */
+    background-color: #444; 
     padding: 50px 0;
     width: 100%;
   }
   .testimonials .line{
-    width: 80px; /* Adjust the width of the line */
-    height: 2px; /* Adjust the height and thickness of the line */
-    background-color: #fff; /* White color */
+    width: 80px;
+    height: 2px; 
+    background-color: #fff; 
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -300,7 +280,7 @@ body {
   }
   .testimonial {
     width: 300px;
-    background-color: #222; /* Darker background color */
+    background-color: #222; 
     margin: 30px;
     padding: 20px;
     text-align: center;
@@ -327,7 +307,7 @@ body {
   /* Contact */
 
 .cta {
-    background-color: #222; /* Dark background color */
+    background-color: #222; 
     padding: 50px 0;
     text-align: center;
   }
@@ -339,14 +319,14 @@ body {
   }
   
   .cta h2 {
-    color: #fff; /* White text color */
+    color: #fff; 
     font-size: 24px;
     margin-bottom: 20px;
   }
   
   .cta .btn {
-    background-color: #ffcc00; /* Yellow button color */
-    color: #222; /* Dark text color */
+    background-color: #ffcc00; 
+    color: #222; 
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -355,13 +335,13 @@ body {
   }
   
   .cta .btn:hover {
-    background-color: #ffc107; /* Darker yellow color on hover */
+    background-color: #ffc107; 
   }
 
 
 .contact {
-    background-color: #222; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #222;
+    color: #fff; 
     padding: 50px 0;
   }
   
@@ -394,8 +374,8 @@ body {
   }
   
   .contact button {
-    background-color: #ffcc00; /* Yellow button color */
-    color: #222; /* Dark text color */
+    background-color: #ffcc00; 
+    color: #222; 
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -405,13 +385,13 @@ body {
   }
   
   .contact button:hover {
-    background-color: #ffc107; /* Darker yellow color on hover */
+    background-color: #ffc107; 
   }
-  /* Existing CSS styles (refer to previous code) */
+
 
 .footer {
-    background-color:#444; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color:#444; 
+    color: #fff; 
     padding: 20px 20px;
     text-align: center;
   }
@@ -422,15 +402,9 @@ body {
   }
   
   .footer .footer-content {
-    /* display: flex; */
     align-items: center;
     flex-wrap: wrap;
   }
-  
-  /* .footer p {
-    margin: 0px 0px 20px;
-    flex: 1;
-  } */
   
   .footer .social-icons a {
     margin: 0 10px;
